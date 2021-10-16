@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<style type="text/css">
+.slider{
+    overflow: hidden;
+}
+
+.slider figure{
+    position: relative;
+    width: 550%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+
+.slider figure img{
+    width: 20%;
+    float: left;
+    width: 1300px;
+    height: 650px;
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+   
+}
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <figure>
+            <img src="./img/utama.jpeg">
+            <img src="./img/utama 2 (1).jpeg">
+            <img src="./img/utama 2 (3).jpeg">
+        </figure>
+    </div>
+</body>
+</html>
