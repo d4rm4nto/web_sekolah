@@ -121,7 +121,7 @@ a:hover {
 
 /* gambar utama */
 .gambar-header {
-  max-width: 1350px;
+  max-width: 1300px;
   color: black;
   background-image: url(./pleton.jpeg);
   height: 555px;
@@ -138,7 +138,7 @@ a:hover {
 
 /* info */
 .container-tiga {
-  max-width: 1250px;
+  max-width: 1300px;
   margin: 50px auto;
   color: black;
   padding: 25px;
@@ -453,7 +453,7 @@ a h4 {
 /* contact */
 
 .container-kontak {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 50px auto;
   padding: 15px;
   text-align: left;
@@ -666,9 +666,6 @@ b {
     height: 500px;
     width: 400px;
   }
-}
-
-@media (min-width: 600px) {
   .container-dua {
     display: flex;
     justify-content: space-between;
@@ -697,6 +694,9 @@ b {
     width: 390px;
     height: 195px;
   }
+}
+
+@media (min-width: 600px) {
 }
 
 @keyframes slider {
