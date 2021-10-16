@@ -666,6 +666,9 @@ b {
     height: 500px;
     width: 400px;
   }
+}
+
+@media (min-width: 600px) {
   .container-dua {
     display: flex;
     justify-content: space-between;
@@ -694,9 +697,6 @@ b {
     width: 390px;
     height: 195px;
   }
-}
-
-@media (min-width: 600px) {
 }
 
 @keyframes slider {
